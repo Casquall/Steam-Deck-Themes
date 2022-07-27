@@ -1,0 +1,16 @@
+{
+    "name": "Library themes",
+    "version": "v1.0",
+    "author": "Ducky/CaSquall",
+    "target": "Library",
+    "inject": {
+        "shared.css": ["SP"]
+    },
+    "patches": {
+        "Variants": {
+            "default": "Deck",
+            "Deck": {"variants/deck.css": ["SP"]},
+            "Summer": {"variants/summer.css": ["SP"]}
+        }
+    }
+}
