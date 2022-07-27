@@ -3,9 +3,6 @@
     "version": "v1.0",
     "author": "Ducky/CaSquall",
     "target": "Library",
-    "inject": {
-        "shared.css": ["SP"]
-    },
     "patches": {
         "Variants": {
             "default": "Deck",
