@@ -1,6 +1,6 @@
 {
     "name": "Ducky's Wallpapers",
-    "version": "v1.0",
+    "version": "v1.1",
     "author": "Ducky/CaSquall",
     "target": "Library",
     "inject": {
@@ -10,7 +10,8 @@
         "Variants": {
             "default": "Deck",
             "Deck": {},
-            "Summer": {"variants/summer.css": ["SP"]}
+            "Summer": {"variants/summer.css": ["SP"]},
+            "Image": {"variants/image.css": ["SP"]}
         }
     }
 }
