@@ -1,0 +1,5 @@
+:root {
+	--bg-main-color-library: linear-gradient(142deg, rgba(78,255,0,1) 0%, rgba(203,196,38,1) 63%, rgba(243,245,0,1) 100%);
+	--tab-font-color-library: #ffe342;
+	--selected-tab-color-library: #ffe342;
+}

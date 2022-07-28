@@ -11,6 +11,9 @@
             "default": "Deck",
             "Deck": {},
             "Summer": {"variants/summer.css": ["SP"]},
+            "Lime": {"variants/lime.css": ["SP"]},
+            "Dracula": {"variants/dracula.css": ["SP"]},
+            "Rainbow": {"variants/rainbow.css": ["SP"]},
             "Image": {"variants/image.css": ["SP"]}
         }
     }

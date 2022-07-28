@@ -1,7 +1,8 @@
 :root {
 	--bg-main-color-library: linear-gradient(142deg, rgb(11 130 215) 0%, rgb(83 92 227) 50%, rgb(171 0 197) 100%);
 	--tab-font-color-library: #e2bcff;
-	--selected-tab-font-color-library: #eb8eff47;
+	--selected-tab-color-library: #eb8eff47;
+	--tab-number-color-library: #ffffffff;
 }
 
 /* Background Gradient */
@@ -16,11 +17,11 @@
 
 /* Selected Tab */
 .gamepadlibrary_GamepadLibrary_ZBBhe > .gamepadtabbedpage_GamepadTabbedPage_3IBLc > .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs > .gamepadtabbedpage_TabRow_19z_5 > .gamepadtabbedpage_TabRowTabs_2VQFn > .gamepadtabbedpage_TabsRowScroll_26cOW > .scrollpanel_ScrollPanel_1CXdi > .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
-    background-color: var(--selected-tab-font-color-library);
+    background-color: var(--selected-tab-color-library);
     color: #ffffff;
 }
 
 /* Tab Number */
 .gamepadlibrary_GamepadLibrary_ZBBhe > .gamepadtabbedpage_GamepadTabbedPage_3IBLc > .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs > .gamepadtabbedpage_TabRow_19z_5 > .gamepadtabbedpage_TabRowTabs_2VQFn > .gamepadtabbedpage_TabsRowScroll_26cOW > .scrollpanel_ScrollPanel_1CXdi > .gamepadtabbedpage_Tab_3eEbS > .gamepadtabbedpage_TabCount_1ui4I {
-    color: #ffffff;
+    color: var(--tab-number-color-library);
 }
